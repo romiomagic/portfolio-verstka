@@ -1,0 +1,172 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: Majalla; /* Гарнитура шрифта */
+    src: url(../fonts/Majalla.ttf); /* Путь к файлу со шрифтом */
+ }
+
+body {
+	background-image: url(../images/bg.png); 
+	color: #8f8f8f;
+	font: 18px Majalla, Tahoma, sans-serif;
+}
+
+#wrapper {
+	width: 880px;
+	margin: 0 auto;
+}
+
+#header {
+	margin-top: 42px;
+}
+
+#logo {
+	float: left;
+	margin-left: 19px;
+	width: 262px;
+	height: 57px;
+}
+
+#menu {
+	width: 880px;
+	height: 50px;
+
+}
+
+#menu ul {
+	padding-left: 80px;
+	overflow: hidden;
+}
+
+#menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+
+#menu ul li:before {
+  	content: url(../images/menu.png); /*  Добавляем в качестве маркера символ*/ 
+    padding-right: 9px;
+  /*   background: url(../images/menu.png) no-repeat left center;*/
+    
+}
+
+#menu ul li a {
+	font: 18px Majalla, Verdana, sans-serif; 
+	color: #727272;
+	text-decoration: none;
+}
+
+#submenu {
+	width: 880px;
+	height: 24px;
+}
+
+#submenu ul {
+	width: 450px;
+	float: right;
+	background: url(../images/submenu-bg.png) no-repeat;
+	background-position: left;
+}
+
+#submenu ul li {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#submenu li:first-child {
+	margin-left: 7px;
+}
+
+#submenu li + li {
+	
+	margin-left: 44px;	
+}
+#submenu ul li a {
+	font: 11px Tahoma, Verdana, sans-serif; 
+	color: #9b9b9b;
+	text-decoration: underline;
+}
+
+#gallery {
+	height: 630px;
+}
+
+#gallery p {
+	border-left
+}
+#main {
+	float: left;
+	margin: 60px auto 0;
+	width: 780px;
+	height: 505px;
+}
+
+#main IMG { 
+	position: relative; 
+	/*border: 6px solid #8f8f8f;*/
+}
+.play { 
+	left: 650px; top: -110px; 
+}
+
+#ribbon {
+	float: right;
+	margin: 60px auto 0;
+	width: 80px;
+}
+
+#ribbon img {
+	display: block;
+	margin: 0 auto;
+}
+
+#discription {
+	border-left-color: #acd000;
+	border-left-style: solid;
+	border-left-width: 4px;
+	clear: both;
+	
+}
+
+#discription h2 {
+	font: 28px Majalla, Verdana, sans-serif;
+	color: #5a5a5a;
+	padding-left: 15px;
+}
+
+#discription p {
+	font: 20px Majalla, Verdana, sans-serif;
+	color: #5a5a5a;
+	padding-left: 15px;
+}
+
+#discription p a {
+	color: #a6bb59;
+	text-decoration: underline;
+}
+
+#footer {
+	width: 880px;
+	/*height: 180px;*/
+}
+
+#footer p {
+	margin-top: 35px;
+	display: inline-block;
+	margin-bottom: 35px;
+}
+
+#footer p a {
+	color: #8aa701;
+}
+
+.link {
+	margin-left: 430px ;
+}
+.copirate {
+	float:right;
+	margin-left: 20px
+}
